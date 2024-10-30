@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>EasyVend</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar" aria-label="Navegação principal">
+            <img src="src/images/logo.png" id="nav_logo" alt="Logo EasyVend">
+            <h1 class="logo-title">EasyVend</h1>
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home" aria-label="Ir para Início">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#software" aria-label="Ir para Software">Software</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#sobre" aria-label="Ir para nício">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#suporte" aria-label="Ir para Suporte">Suporte</a>
+                </li>
+            </ul>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars" style="color: #efefef"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu" aria-label="Menu móvel">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home" aria-label="Ir para Início">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#software" aria-label="Ir para Software">Software</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#sobre" aria-label="Ir para nício">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#suporte" aria-label="Ir para Suporte">Suporte</a>
+                </li>
+            </ul>
+    </header>
+
+    <main id="content">
+        <section id="home" aria-label="Seção inicial">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    Deixe o complicado, abrece o 
+                    <span>simples</span>
+                </h1>
+
+                <p class="description">
+                    O EasyVend não é apenas um sistema, mas uma nova
+                    forma de se conectar com a tecnologia e com o seu negócio.
+                    Nunca foi tão fácil controlar seu estoque, emitir notas
+                    e fazer vendas.
+                </p>
+
+                <div id="cta_buttons">
+                    <a href="#" class="btn-default" aria-label="Veja mais sobre EasyVend">
+                        Veja mais
+                    </a>
+                </div>
+
+                <div class="social-media-buttons" aria-label="Links para redes sociais">
+                    <a href="">
+                        <i class="fa-brands fa-whatsapp" aria-label="Ir para WhatsApp"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-instagram" aria-label="Ir para Instagram"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-facebook" aria-label="Ir para Facebook"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div id="banner">
+                <img src="src/images/hero.png" alt="Imagem ilustrativa do EasyVend">
+            </div>
+        </section>
+
+        <section id="menu" aria-label="Seção de software">
+            <h2 class="section-title">Software</h2>
+            <h3 class="section-subtitle">Conheça um pouco sobre nossa solução</h3>
+
+            <div id="tabs">
+                <div class="tabs_img">
+                    <div class="tabs-icons" aria-label="Ícone do objetivo">
+                        <i class="fa-solid fa-bullseye"></i>
+                    </div>
+
+                    <img src="src/images/business_presentation.png" class="business-image" alt="Apresentação do negócio">
+
+                    <h3 class="tabs-title">
+                        Objetivo
+                    </h3>
+
+                    <span class="tabs-description">
+                        O software foi desenvolvido para otimizar a gestão de dados e processos empresariais, 
+                        facilitando a tomada de decisões e aumentando a eficiência.
+                    </span>
+
+
+
+                </div>
+
+                <div class="tabs_img">
+                    <div class="tabs-icons" aria-label="Ícone das funcionalidades">
+                        <i class="fa-solid fa-chart-simple"></i>
+                    </div>
+
+                    <img src="src/images/function.png" class="function-image" alt="Funcionalidades do software">
+
+                    <h3 class="tabs-title">
+                        Funcionalidades
+                    </h3>
+
+                    <span class="tabs-description">
+                        Automação de processos operacionais. 
+                        Integração com diferentes sistemas e plataformas. 
+                        Relatórios personalizados e análise de dados em tempo real
+                    </span>
+
+
+
+
+                </div>
+
+                <div class="tabs_img">
+                    <div class="tabs-icons" aria-label="Ícone do público-alvo">
+                        <i class="fa-solid fa-people-group"></i>
+                    </div>
+
+                    <img src="src/images/people.png" class="people-image" alt="Público-alvo do software">
+
+                    <h3 class="tabs-title">
+                        Público-alvo
+                    </h3>
+
+                    <span class="tabs-description">
+                        Destinado a pequenas e médias empresas que buscam 
+                        digitalizar seus processos e melhorar a eficiência operacional.
+                    </span>
+
+ 
+
+
+                </div>
+
+                <div class="tabs_img">
+                    <div class="tabs-icons" aria-label="Ícone dos diferenciais">
+                        <i class="fa-solid fa-face-smile"></i>
+                    </div>
+
+                    <img src="src/images/security.png" class="security" alt="Diferenciais do software">
+
+                    <h3 class="tabs-title">
+                        Diferenciais
+                    </h3>
+
+                    <span class="tabs-description">
+                        Desempenho otimizado para grandes volumes de dados.
+                        Segurança robusta com criptografia de ponta a ponta.
+                        Escalabilidade garantida para acompanhar o crescimento dos negócios
+                    </span>
+
+
+
+                </div>
+            </div>
+        </section>
+
+        <section id="about" aria-label="Seção sobre nós">
+            <img src="src/images/software.png" id="about_image" alt="Imagem sobre o EasyVend">
+
+            <div id="about_content">
+                <h2 class="section-title">
+                    Inovamos com soluções tecnológicas de alto desempenho para transformar desafios em oportunidades.
+                </h2>
+                <h3 class="section-subtitle">
+                    Sobre nós
+                </h3>
+
+                <div id="sobre">
+                    <div class="sobre-nos">
+                        <img src="src/images/user.png" class="feedback-avatar" alt="Imagem de ícone de usuário">
+
+                        <div class="sobre-content">
+                            <p>
+                                Léo Maycon Teixeira Batistta - IFF
+                            </p>
+                            <p>
+                                Nosso compromisso é melhorar continuamente com base no feedback dos clientes, 
+                                trazendo atualizações regulares e novos recursos.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="sobre-nos">
+                        <img src="src/images/user.png" class="feedback-avatar" alt="Imagem de ícone de usuário">
+
+                        <div class="sobre-content">
+                            <p>
+                                Ana Júlia da Silva Corrêa - IFF
+                            </p>
+                            <p>
+                                Acreditamos que a tecnologia pode transformar o mundo, 
+                                facilitando o crescimento e a inovação em empresas de todos os portes.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="btn-default" aria-label="Ver mais sobre nós">
+                    Veja mais
+                </button>
+            </div>
+        </section>
+
+        <section id="contato" class="contact_section layout_padding" aria-label="Seção de suporte">
+            <div class="container">
+                <div class="heading_container">
+                    <h2>Dúvidas? Entre em contato conosco!</h2>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <form id="contactForm" action="form.php" method="POST">
+                        
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <input type="text" name="nome" class="form-control" placeholder="Nome" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="email" name="email" class="form-control" placeholder="E-mail" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col">
+                                <input type="text" name="assunto" class="form-control" placeholder="Assunto" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="mensagem" class="form-control" rows="4" placeholder="Mensagem" required></textarea>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <button type="submit" class="btn-default">Enviar</button>
+                        </div>
+                        <div id="statusMessage" style="color: #efefef;"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+        
+    </main>
+
+    <footer>
+        <img src="src/images/wave.svg" alt="">
+
+        <div id="footer_items">
+            <span id="copyright">
+                &copy; 2024 EasyVend. Todos os direitos reservados.
+            </span>
+
+            <div class="social-media-buttons">
+                <a href="">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="src/javascript/script.js"></script>
+</body>
+</html>
